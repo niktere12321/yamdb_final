@@ -58,7 +58,7 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.PASSPHRASE }}
         script: |
-            sudo docker pull niktere/niktere
+            sudo docker pull niktere/niktere:v1
             sudo docker-compose stop
             sudo docker-compose rm web
             touch .env
