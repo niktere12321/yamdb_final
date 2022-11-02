@@ -152,4 +152,5 @@ response sample
 ```
 
 ### Автор
-Nikita Terekhov
+
+Терехов Никита Алексеевич
